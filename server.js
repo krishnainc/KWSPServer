@@ -13,7 +13,7 @@ app.use(cors());
 
 // Twilio credentials
 const accountSid = 'AC3fbb9ef023cce4b17cba72e4a57e1a28'; // Replace with your Twilio Account SID
-const authToken = 'e1f83f83e1ee8b44c0ed2f56d1ca9f86'; // Replace with your Twilio Auth Token
+const authToken = '92499b7497e2b16f5759676e15921ee6'; // Replace with your Twilio Auth Token
 const twilioPhoneNumber = '+14155238886'; // Replace with your Twilio phone number
 
 const client = twilio(accountSid, authToken);
